@@ -1,0 +1,33 @@
+﻿Build started 23/01/2018 17:18:59.
+     1>Project "C:\Users\connor.connor-PC\Desktop\A Star Pathfinding\A Star Pathfinding\A Star Pathfinding.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Instructions.cpp Main.cpp NodeMap.cpp PathFinding.cpp Resources.cpp SDL.cpp
+         SDL.cpp
+         Resources.cpp
+     1>c:\users\connor.connor-pc\desktop\a star pathfinding\a star pathfinding\resources.cpp(87): warning C4150: deletion of pointer to incomplete type 'SDL_Texture'; no destructor called
+                 c:\users\connor.connor-pc\desktop\a star pathfinding\deps\include\sdl\sdl_render.h(127) : see declaration of 'SDL_Texture'
+         Main.cpp
+         Generating Code...
+         Compiling...
+         PathFinding.cpp
+         NodeMap.cpp
+     1>c:\users\connor.connor-pc\desktop\a star pathfinding\a star pathfinding\nodemap.cpp(384): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\connor.connor-pc\desktop\a star pathfinding\a star pathfinding\nodemap.cpp(505): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\connor.connor-pc\desktop\a star pathfinding\a star pathfinding\nodemap.cpp(516): warning C4150: deletion of pointer to incomplete type 'SDL_Renderer'; no destructor called
+                 c:\users\connor.connor-pc\desktop\a star pathfinding\deps\include\sdl\sdl_render.h(121) : see declaration of 'SDL_Renderer'
+         Instructions.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\connor.connor-PC\Desktop\A Star Pathfinding\Debug\A Star Pathfinding.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\connor.connor-PC\Desktop\A Star Pathfinding\Debug\A Star Pathfinding.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\connor.connor-PC\Desktop\A Star Pathfinding\Debug\A Star Pathfinding.lib" /MACHINE:X86 Debug\Input.obj
+         Debug\Instructions.obj
+         Debug\Main.obj
+         Debug\NodeMap.obj
+         Debug\PathFinding.obj
+         Debug\Resources.obj
+         Debug\SDL.obj
+         A Star Pathfinding.vcxproj -> C:\Users\connor.connor-PC\Desktop\A Star Pathfinding\Debug\A Star Pathfinding.exe
+     1>Done Building Project "C:\Users\connor.connor-PC\Desktop\A Star Pathfinding\A Star Pathfinding\A Star Pathfinding.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.27
