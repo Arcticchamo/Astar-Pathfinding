@@ -380,7 +380,7 @@ int NodeMap::CalculateDistance(Node *_node)
 
 void NodeMap::NextNode()
 {
-	for (int i = 0; i < m_closedList.size(); i++)
+	for (unsigned int i = 0; i < m_closedList.size(); i++)
 	{
 		for (int j = 0; j < m_closedList.at(i)->GetNumberOfChildren(); j++)
 		{
